@@ -1,0 +1,24 @@
+{
+    "name": "boolive/buildings",
+    "type": "library",
+    "description": "Package for housing developer site",
+    "keywords": ["boolive","package","housing","developer"],
+    "homepage": "http://boolive.ru",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Shestakov",
+            "email": "boolive@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "boolive/core": "dev-master",
+        "boolive/basic": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "../.."
+        }
+    }
+}
